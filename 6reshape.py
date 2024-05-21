@@ -18,6 +18,7 @@ newarr = arr.reshape(2, 2, -1)
 print("unknown",newarr)
 
 #Flattening the arrays
+#reshape(-1)
 arr = np.array([[1, 2, 3], [4, 5, 6]])
 newarr = arr.reshape(-1)
 print(newarr)

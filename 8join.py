@@ -6,9 +6,6 @@ arr2 = np.array([4, 5, 6])
 arr = np.concatenate((arr1, arr2))
 print(arr)
 
-
-
-
 #join2D
 arr1 = np.array([[1, 2], [3, 4]])
 arr2 = np.array([[5, 6], [7, 8]])
@@ -34,7 +31,6 @@ arr = np.vstack((arr1, arr2))
 print("vstack",arr)
 
 #dstack() to stack along height, which is the same as depth.
-
 arr1 = np.array([1, 2, 3])
 arr2 = np.array([4, 5, 6])
 arr = np.dstack((arr1, arr2))
